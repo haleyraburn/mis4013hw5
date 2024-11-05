@@ -1,7 +1,7 @@
 function greetUser() {
   const userName = prompt("What's your name?");
   if (userName != null && userName !== "") {
-    document.getElementById('result').innerHTML = "Hello," + userName +"! Welcome to the site.";
+    document.getElementById('result').innerHTML = "Hello, " + userName +"! Welcome to the site.";
   } else {
     document.getElementbyId('result').innerHTML = "Hello, guest! Welcome to the site.";
   }
