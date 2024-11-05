@@ -7,11 +7,13 @@ function greetUser() {
   }
 }
 
-function calculateSum() {
-  let num1 = 10;
-  let num2 = 20;
-  let sum = num1 + num2;
-  document.getElementbyId('result').innerHTML = "The sum of " + num1 + " and " + num2 + " is: " + sum;
+function changeText() {
+  const newText = prompt("Enter a new message to display:");
+  if (newText != null && newText !== "") {
+    document.getElementById('result').innerHTML = "You said: " + newText;
+  } else {
+    document.getElementById('result').innerHTML = "You didn't enter a message!";
+  }
 }
 
 function changeBackgroundColor() {
