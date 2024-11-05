@@ -34,9 +34,9 @@ function countdown() {
   let resultDiv = document.getElementById('result');
   resultDiv.innerHTML = "Countdown starting from: " + countdownValue;
 
-  let intervalId = setInterval(function() {
+  let intervalId = setInterval(function()) {
     countdownValue--;
-    reultDiv.innerHTML = "Countdown: " + countdownValue;
+    resultDiv.innerHTML = "Countdown: " + countdownValue;
     if (countdownValue === 0) {
       clearInterval(intervalId);
       resultDiv.innerHTML = "Countdown finished!";
