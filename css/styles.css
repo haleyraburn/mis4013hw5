@@ -1,0 +1,32 @@
+ body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f9;
+    }
+    h1 {
+      color: #333;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      margin: 10px;
+      font-sixe: 16px;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #result {
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #e3f3fd;
+      border: 1px solid #90caf9;
+      font-size: 18px;
+      color: #333;
+    }
+    #togglePara {
+      margin-top: 20px;
+    }
